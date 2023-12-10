@@ -1,14 +1,14 @@
 <template>
     <div>
-        <tabular-view></tabular-view>
+        <home-component></home-component>
     </div>
 </template>
   
 <script>
-import TabularView from '@/components/TabularView.vue';
+import HomeComponent from '@/components/HomeComponent.vue';
 export default {
     components: {
-        TabularView
+        HomeComponent
     }
 }
 </script>

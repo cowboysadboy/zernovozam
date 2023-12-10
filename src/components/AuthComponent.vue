@@ -35,15 +35,7 @@ export default {
             localStorage.setItem('user_status', this.user_status);
             this.$router.push('/');
         },
-        redirectToHome() {
-            this.$router.push('/');
-        }
     },
-    mounted() {
-        if (localStorage.getItem('user_status') !== '') {
-            this.redirectToHome()
-        }
-    }
 
 }
 </script>
